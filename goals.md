@@ -37,3 +37,17 @@ controls in cross-origin iframes, protect it from cookie stealers, clickjacking,
 I don't consider it a worthwhile risk. If custom page functionality is needed, that should be
 something you can talk about with your instance administrator, or contributing it to the project
 yourself.
+
+# Groups
+
+Groups are feeds that can be filled by multiple users. Users that are part of a group can
+post and repost to the group, and react to other people's posts in the name of the group.
+
+Groups can be either open or invite only. Only members of the group can post to or from the group.
+But everyone can follow a group.
+
+Groups have administrators. Administrators can add and remove members, edit the groups profile.
+Posts to a group can only be deleted by administrators or the post author.
+
+Groups can be used to form communities around specific topics, but they can also be used by single
+users to just separate their own content into multiple feeds.
