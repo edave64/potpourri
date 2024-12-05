@@ -51,3 +51,17 @@ Posts to a group can only be deleted by administrators or the post author.
 
 Groups can be used to form communities around specific topics, but they can also be used by single
 users to just separate their own content into multiple feeds.
+
+# Feeds
+
+Users have two feeds, their own feed and their followed feed. The own feed is comprised of posts
+by the user themselves and reposts from other users. The followed feed is equivalent to the home
+feed on something like mastodon. Users can decide to make their follow feed public or private.
+
+Posts that are not public are not shown to other users reading the followed feed. You cannot follow
+the followed feed of another user.
+
+Soup also had another layer, "friends of friends", which aggregated the followed feeds of all the
+users that the user followed. This was a great way to find other people to follow, but I don't
+believe it can realistically be replicated in ActivityPub. Although it could be done for followed
+users on the same instance.
